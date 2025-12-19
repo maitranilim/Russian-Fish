@@ -1,0 +1,5 @@
+{
+  "name": "Russian Fish",
+  "description": "A minimalist, single-player vs AI web version of the classic Russian card game '101' (similar to Mau Mau or Uno). Features special card mechanics, reactive UI, and a sleek dark-mode aesthetic.",
+  "requestFramePermissions": []
+}
