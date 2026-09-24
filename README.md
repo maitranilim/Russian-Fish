@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Russian Fish
 
-# Run and deploy your AI Studio app
+A browser card game based on Russian 101. I wanted the table to feel alive: cards move between hands, special cards interrupt the turn, and small synthesized sounds make each action easier to follow.
 
-This contains everything you need to run your app locally.
+You play against computer opponents. Match the rank or suit of the discard pile, use special cards to change the flow, and empty your hand first. The game includes an in-app **How to Play** guide, so you can learn the exact rules while playing.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1AoSTnj9xGFH2PUM-VOOsp5BB845cZWSG
+## Run it
 
-## Run Locally
+```bash
+npm install
+npm run dev
+```
 
-**Prerequisites:**  Node.js
+`npm run build` makes a production build. This is a React, TypeScript, and Vite project. The game runs in your browser; there is no account or online multiplayer.
 
+## What is here
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The interesting part is the interaction work: turn state, playable-card rules, card movement, responsive table layout, and sound made with the Web Audio API.
+
+This is a playable experiment, not a finished multiplayer product.
