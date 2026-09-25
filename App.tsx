@@ -199,7 +199,7 @@ const TutorialModal: React.FC<{ onClose: () => void }> = ({ onClose }) => (
 
                 <section>
                     <h3 className="text-white font-bold mb-2">Drawing</h3>
-                    <p>If you cannot play (or choose not to), click the Deck to draw a card. If you are under attack (Stack > 0), you must draw the accumulated penalty cards unless you can defend with a 2.</p>
+                    <p>If you cannot play (or choose not to), click the Deck to draw a card. If you are under attack (Stack {">"} 0), you must draw the accumulated penalty cards unless you can defend with a 2.</p>
                 </section>
             </div>
             <div className="p-6 border-t border-slate-700 bg-slate-800/30 text-center">
